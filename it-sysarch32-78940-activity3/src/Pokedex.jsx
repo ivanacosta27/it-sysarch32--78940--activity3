@@ -3,7 +3,7 @@ import Pokemon from './Pokemon';
 
 const Pokedex = () => {
     const [pokemonList, setPokemonList] = useState([]);
-    const [language, setLanguage] = useState('english'); // Default language
+    const [language, setLanguage] = useState('english');
 
     useEffect(() => {
         fetch('https://us-central1-it-sysarch32.cloudfunctions.net/pokemon')
