@@ -3,10 +3,9 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    /* margin: 20px auto; */ /* Remove margin for centering */
-    display: inline-block; /* Display cards inline */
-    margin-right: 20px; /* Add margin between cards */
-    margin-bottom: 20px; /* Add margin below cards */
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
     flex-direction: column;
   }
   
